@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+body{
+font-family: 'Comic Neue', sans-serif ;
+font-size: 18px;
+font-weight: 400;
+background-color: rgb(149, 174, 149); 
+color: rgba(6, 6, 75, 0.789);
+}
+
+#moreinfo {
+    font-style: italic;
+}
+
+
+h1{
+    color: rgb(6, 6, 75);
+}
+button{color: rgb(6, 6, 75); background: rgba(71, 114, 71, 0.448);}
+textarea {
+    background-color: rgb(170, 176, 170);
+}
+input{background-color: rgb(170, 176, 170);}
+
+.card{
+    border-radius: 20px ;
+    padding-left: 10px;
+    border: 1px;
+    padding-bottom: 10px;
+    
+}
+
+header {
+    background: rgb(74, 114, 118);
+    border: solid darkgreen;
+    margin-bottom: 20px; 
+    
+}
+
+footer {
+    background-color: rgb(121, 108, 135);
+    padding-bottom: 10px;
+    width: 300px;
+    
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+
+img{
+border-radius: 20px;
+box-shadow: 4px 4px 15px rgb(71, 72, 71);
+width: 50%;
+}
+
+a{
+    color: rgb(45, 12, 89);
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+}
+a:active {
+color: rgb(241, 193, 49);
+}
+
+a:visited {
+    color: rgb(41, 83, 35);
+}
+
+.btn {
+    border: 1px solid rgb(77, 22, 69);
+    border-radius: 5px;
+    background: rgb(168, 121, 168);
+    color: rgb(6, 6, 75);
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: .8;
+}
+
+.list {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 5px;
+}
+
+table td:hover {
+    background: rgb(151, 206, 151);
+}
+table {
+   line-height: 25px;
+   width: 100%;
+}
+
+table td:nth-child(odd) {
+color: rgb(80, 12, 80);
+}
+
+
+
+
+
+input {
+    background: rgb(175, 142, 175);
+    font-family: inherit;
+}
+
+textarea{
+    background: rgb(175, 142, 175);
+    font-family: inherit;
+ }
+
+ @media (max-width:530px) {
+    .intro {
+        text-align: center;
+    }
+    #footer {
+        background-size: auto;
+    }
+}
